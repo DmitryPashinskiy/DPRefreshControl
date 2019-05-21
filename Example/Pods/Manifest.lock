@@ -1,0 +1,16 @@
+PODS:
+  - DPRefreshControl (0.1.0)
+
+DEPENDENCIES:
+  - DPRefreshControl (from `../`)
+
+EXTERNAL SOURCES:
+  DPRefreshControl:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DPRefreshControl: 944db9bad43e3fef777f5552fbf507039ca0ec28
+
+PODFILE CHECKSUM: 3201f211ea2a9a5ab8d27bd9615d43d6682a8b7a
+
+COCOAPODS: 1.5.3

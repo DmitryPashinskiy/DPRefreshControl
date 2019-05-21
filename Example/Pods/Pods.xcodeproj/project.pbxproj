@@ -1,0 +1,777 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		005CBF514229F8CAD3A79E09B703B40B /* DPRefreshControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F979CF1C2C2561CC2222D022A8DEEA80 /* DPRefreshControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1601EBA3B3D9ECA44746AFCF46A7BFA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		3976DA90DF72752F01ACF964D6C2A2E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		97F4DFBEB4713FC5AD176EE08BE2110B /* Pods-DPRefreshControl_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B546162C70510104BD6FFE8BA83B7F69 /* Pods-DPRefreshControl_Example-dummy.m */; };
+		A2B5706D0C1B262DB74DA245D990FC56 /* Pods-DPRefreshControl_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F889B188BF81CD9F4E34D1408139FF /* Pods-DPRefreshControl_Tests-dummy.m */; };
+		AD2CC4EC8D1CED64578ED1357F8572C9 /* Pods-DPRefreshControl_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D46DB744762FBC7B5DE9722944CC4F59 /* Pods-DPRefreshControl_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C92839AFF03F74E3C2860269D2439C43 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 551EE9AD6460565AF1601C83D2B38799 /* ReplaceMe.m */; };
+		F36E4D4B6E6BF364D2A14FE2D6B7F651 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		F5120C8DE28E28E9114B16A8438A4E41 /* DPRefreshControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD60FBB748125534A6DFED45D38A394 /* DPRefreshControl-dummy.m */; };
+		F5F4827DCBA78F45703FA36485A08FE1 /* Pods-DPRefreshControl_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF2ACF8546F69D5E8335F338D074CDED /* Pods-DPRefreshControl_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D04EFB4EE0D0CD1881E374CC3F280F7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 740E82B2F5F8B67FFC6C57C32436D400;
+			remoteInfo = "Pods-DPRefreshControl_Example";
+		};
+		D5A8685CA2A0752898917F977A4CA6A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE384AD72B44577088D9224422308972;
+			remoteInfo = DPRefreshControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		144C491E6FDD97C2E2731A549E53419D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E12653AC5304388BC8673976652DD7A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		257A634F71DF762D0AF74F39E6E56F78 /* DPRefreshControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DPRefreshControl.modulemap; sourceTree = "<group>"; };
+		2C21C77E12345F4C7304F429A53AB2EE /* Pods-DPRefreshControl_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DPRefreshControl_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2EA23BD6AC759E4EF9A6A63BA1991645 /* Pods-DPRefreshControl_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DPRefreshControl_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3D15EE84D1708A4499A3ADEA4A4629C2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D894CE2778E861C12B46AFCAF452639 /* Pods-DPRefreshControl_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DPRefreshControl_Example-resources.sh"; sourceTree = "<group>"; };
+		451142B7BAE560DBA428D66A96A8DE7B /* Pods-DPRefreshControl_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DPRefreshControl_Tests-resources.sh"; sourceTree = "<group>"; };
+		54F889B188BF81CD9F4E34D1408139FF /* Pods-DPRefreshControl_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DPRefreshControl_Tests-dummy.m"; sourceTree = "<group>"; };
+		551EE9AD6460565AF1601C83D2B38799 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = DPRefreshControl/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		58F7B372443B247410018C4F6E160242 /* DPRefreshControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DPRefreshControl.framework; path = DPRefreshControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ACD958181F8AB1EA8F225BB13C98AFE /* Pods-DPRefreshControl_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DPRefreshControl_Example.release.xcconfig"; sourceTree = "<group>"; };
+		612AD372166D3CD494D74C317874706A /* DPRefreshControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DPRefreshControl.xcconfig; sourceTree = "<group>"; };
+		656D91F0B1C4A79C93185F69F03028BC /* Pods-DPRefreshControl_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DPRefreshControl_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6AAFAA23A166BDB250A641025469324F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73D4D5D26186EDCFFF3FB7C6F89AF4A3 /* Pods-DPRefreshControl_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DPRefreshControl_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		748E7BDD2C5DCD62831CFD436A31B445 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		828105096A720ADAB1053F20E2590C27 /* Pods-DPRefreshControl_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DPRefreshControl_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		AA7353BC59A0176B9FE9BF794113F8DD /* Pods-DPRefreshControl_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DPRefreshControl_Example.modulemap"; sourceTree = "<group>"; };
+		ADB497579881667F93AB2B9A8FF3CBD5 /* Pods_DPRefreshControl_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DPRefreshControl_Tests.framework; path = "Pods-DPRefreshControl_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B51DE85D537192C7D1951966F5EEB57D /* Pods-DPRefreshControl_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DPRefreshControl_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B546162C70510104BD6FFE8BA83B7F69 /* Pods-DPRefreshControl_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DPRefreshControl_Example-dummy.m"; sourceTree = "<group>"; };
+		B5CF1AA9AF044CF26966D4C09D4BE03C /* Pods-DPRefreshControl_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DPRefreshControl_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		CA42AEBBA6DBABF12B65EDB2D9FA7641 /* DPRefreshControl.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = DPRefreshControl.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CCD60FBB748125534A6DFED45D38A394 /* DPRefreshControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DPRefreshControl-dummy.m"; sourceTree = "<group>"; };
+		D46DB744762FBC7B5DE9722944CC4F59 /* Pods-DPRefreshControl_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DPRefreshControl_Example-umbrella.h"; sourceTree = "<group>"; };
+		D4A89DD9E04E002EEA8F0697212D9129 /* Pods-DPRefreshControl_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DPRefreshControl_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D9ED48D7C0E9FFB2CBD086C692601E95 /* DPRefreshControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DPRefreshControl-prefix.pch"; sourceTree = "<group>"; };
+		DF2ACF8546F69D5E8335F338D074CDED /* Pods-DPRefreshControl_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DPRefreshControl_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E1ADB474DE17D57469E556CF4EFC0A0E /* Pods_DPRefreshControl_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DPRefreshControl_Example.framework; path = "Pods-DPRefreshControl_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F385B77DBC1904F7622234FEB75C370A /* Pods-DPRefreshControl_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DPRefreshControl_Tests.modulemap"; sourceTree = "<group>"; };
+		F4150DA368F0A51128D301EE9209C615 /* Pods-DPRefreshControl_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DPRefreshControl_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F979CF1C2C2561CC2222D022A8DEEA80 /* DPRefreshControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DPRefreshControl-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		066FC600E0F28B9A219130BBD5C75ABB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F36E4D4B6E6BF364D2A14FE2D6B7F651 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E1EA2C27535EB4ABC05E70A661EE0EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1601EBA3B3D9ECA44746AFCF46A7BFA1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9829335FEB8738902B2503160F71A8A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3976DA90DF72752F01ACF964D6C2A2E0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B9954D11BA0017E3476FFBE9486902C /* Pods-DPRefreshControl_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6AAFAA23A166BDB250A641025469324F /* Info.plist */,
+				F385B77DBC1904F7622234FEB75C370A /* Pods-DPRefreshControl_Tests.modulemap */,
+				73D4D5D26186EDCFFF3FB7C6F89AF4A3 /* Pods-DPRefreshControl_Tests-acknowledgements.markdown */,
+				2EA23BD6AC759E4EF9A6A63BA1991645 /* Pods-DPRefreshControl_Tests-acknowledgements.plist */,
+				54F889B188BF81CD9F4E34D1408139FF /* Pods-DPRefreshControl_Tests-dummy.m */,
+				B5CF1AA9AF044CF26966D4C09D4BE03C /* Pods-DPRefreshControl_Tests-frameworks.sh */,
+				451142B7BAE560DBA428D66A96A8DE7B /* Pods-DPRefreshControl_Tests-resources.sh */,
+				DF2ACF8546F69D5E8335F338D074CDED /* Pods-DPRefreshControl_Tests-umbrella.h */,
+				D4A89DD9E04E002EEA8F0697212D9129 /* Pods-DPRefreshControl_Tests.debug.xcconfig */,
+				F4150DA368F0A51128D301EE9209C615 /* Pods-DPRefreshControl_Tests.release.xcconfig */,
+			);
+			name = "Pods-DPRefreshControl_Tests";
+			path = "Target Support Files/Pods-DPRefreshControl_Tests";
+			sourceTree = "<group>";
+		};
+		38B3B10F47DBF23F04F2A939D09ABB62 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB56200151B315C098A56823DFC7FBE4 /* Pods-DPRefreshControl_Example */,
+				1B9954D11BA0017E3476FFBE9486902C /* Pods-DPRefreshControl_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6727898806E4EE472F92D0D61809CF1D /* DPRefreshControl */ = {
+			isa = PBXGroup;
+			children = (
+				551EE9AD6460565AF1601C83D2B38799 /* ReplaceMe.m */,
+				DEF16F1DE262BFAC67ABA7102050F16F /* Pod */,
+				C256E8103CFB13C6E00FBF0A32F8E3BB /* Support Files */,
+			);
+			name = DPRefreshControl;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7A6085967494EF07F0D0336949A80AFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58F7B372443B247410018C4F6E160242 /* DPRefreshControl.framework */,
+				E1ADB474DE17D57469E556CF4EFC0A0E /* Pods_DPRefreshControl_Example.framework */,
+				ADB497579881667F93AB2B9A8FF3CBD5 /* Pods_DPRefreshControl_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		BB56200151B315C098A56823DFC7FBE4 /* Pods-DPRefreshControl_Example */ = {
+			isa = PBXGroup;
+			children = (
+				144C491E6FDD97C2E2731A549E53419D /* Info.plist */,
+				AA7353BC59A0176B9FE9BF794113F8DD /* Pods-DPRefreshControl_Example.modulemap */,
+				656D91F0B1C4A79C93185F69F03028BC /* Pods-DPRefreshControl_Example-acknowledgements.markdown */,
+				828105096A720ADAB1053F20E2590C27 /* Pods-DPRefreshControl_Example-acknowledgements.plist */,
+				B546162C70510104BD6FFE8BA83B7F69 /* Pods-DPRefreshControl_Example-dummy.m */,
+				B51DE85D537192C7D1951966F5EEB57D /* Pods-DPRefreshControl_Example-frameworks.sh */,
+				3D894CE2778E861C12B46AFCAF452639 /* Pods-DPRefreshControl_Example-resources.sh */,
+				D46DB744762FBC7B5DE9722944CC4F59 /* Pods-DPRefreshControl_Example-umbrella.h */,
+				2C21C77E12345F4C7304F429A53AB2EE /* Pods-DPRefreshControl_Example.debug.xcconfig */,
+				5ACD958181F8AB1EA8F225BB13C98AFE /* Pods-DPRefreshControl_Example.release.xcconfig */,
+			);
+			name = "Pods-DPRefreshControl_Example";
+			path = "Target Support Files/Pods-DPRefreshControl_Example";
+			sourceTree = "<group>";
+		};
+		C256E8103CFB13C6E00FBF0A32F8E3BB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				257A634F71DF762D0AF74F39E6E56F78 /* DPRefreshControl.modulemap */,
+				612AD372166D3CD494D74C317874706A /* DPRefreshControl.xcconfig */,
+				CCD60FBB748125534A6DFED45D38A394 /* DPRefreshControl-dummy.m */,
+				D9ED48D7C0E9FFB2CBD086C692601E95 /* DPRefreshControl-prefix.pch */,
+				F979CF1C2C2561CC2222D022A8DEEA80 /* DPRefreshControl-umbrella.h */,
+				3D15EE84D1708A4499A3ADEA4A4629C2 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DPRefreshControl";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				24390EFD555DD124430DFF9724065945 /* Podfile */,
+				DDA80FE499776F4795448C2DAFB6DE3E /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				7A6085967494EF07F0D0336949A80AFF /* Products */,
+				38B3B10F47DBF23F04F2A939D09ABB62 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDA80FE499776F4795448C2DAFB6DE3E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6727898806E4EE472F92D0D61809CF1D /* DPRefreshControl */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		DEF16F1DE262BFAC67ABA7102050F16F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CA42AEBBA6DBABF12B65EDB2D9FA7641 /* DPRefreshControl.podspec */,
+				1E12653AC5304388BC8673976652DD7A /* LICENSE */,
+				748E7BDD2C5DCD62831CFD436A31B445 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		17731991D48E0F3D126F4EB98203A764 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD2CC4EC8D1CED64578ED1357F8572C9 /* Pods-DPRefreshControl_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8049108D219CEDE069B73087EDA8C9D6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				005CBF514229F8CAD3A79E09B703B40B /* DPRefreshControl-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEABB94BC9D52F7310C6DBD76FC20C59 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5F4827DCBA78F45703FA36485A08FE1 /* Pods-DPRefreshControl_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		740E82B2F5F8B67FFC6C57C32436D400 /* Pods-DPRefreshControl_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28E1C2DF0D98EC5EB5D700414A272797 /* Build configuration list for PBXNativeTarget "Pods-DPRefreshControl_Example" */;
+			buildPhases = (
+				17731991D48E0F3D126F4EB98203A764 /* Headers */,
+				5B47F6A07CFCD17DDD667584FA19094E /* Sources */,
+				4E1EA2C27535EB4ABC05E70A661EE0EB /* Frameworks */,
+				C659B0EC2F15ABFB7F11D54AB32F615D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83ABEE54904C3FEB7430D8821F744EA4 /* PBXTargetDependency */,
+			);
+			name = "Pods-DPRefreshControl_Example";
+			productName = "Pods-DPRefreshControl_Example";
+			productReference = E1ADB474DE17D57469E556CF4EFC0A0E /* Pods_DPRefreshControl_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7E915EF2184D47750B0F2591776E35FC /* Pods-DPRefreshControl_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A165B59EFB11002F294E1D7FEBC8F19 /* Build configuration list for PBXNativeTarget "Pods-DPRefreshControl_Tests" */;
+			buildPhases = (
+				DEABB94BC9D52F7310C6DBD76FC20C59 /* Headers */,
+				A151F60E0CC281C6EEAECB1AB6F59E7E /* Sources */,
+				9829335FEB8738902B2503160F71A8A3 /* Frameworks */,
+				2D5F4A28C44E017B11FA4EA75C61A134 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90F10FD635DDA753D7712B2F06CBF8E0 /* PBXTargetDependency */,
+			);
+			name = "Pods-DPRefreshControl_Tests";
+			productName = "Pods-DPRefreshControl_Tests";
+			productReference = ADB497579881667F93AB2B9A8FF3CBD5 /* Pods_DPRefreshControl_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FE384AD72B44577088D9224422308972 /* DPRefreshControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20238D7D19351C745BE6533C9204FD89 /* Build configuration list for PBXNativeTarget "DPRefreshControl" */;
+			buildPhases = (
+				8049108D219CEDE069B73087EDA8C9D6 /* Headers */,
+				CB2C64887674F8DB728D5C03093A3E31 /* Sources */,
+				066FC600E0F28B9A219130BBD5C75ABB /* Frameworks */,
+				3934DDC10EF71889706480C8D8BC5B3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DPRefreshControl;
+			productName = DPRefreshControl;
+			productReference = 58F7B372443B247410018C4F6E160242 /* DPRefreshControl.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 7A6085967494EF07F0D0336949A80AFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE384AD72B44577088D9224422308972 /* DPRefreshControl */,
+				740E82B2F5F8B67FFC6C57C32436D400 /* Pods-DPRefreshControl_Example */,
+				7E915EF2184D47750B0F2591776E35FC /* Pods-DPRefreshControl_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D5F4A28C44E017B11FA4EA75C61A134 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3934DDC10EF71889706480C8D8BC5B3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C659B0EC2F15ABFB7F11D54AB32F615D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B47F6A07CFCD17DDD667584FA19094E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97F4DFBEB4713FC5AD176EE08BE2110B /* Pods-DPRefreshControl_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A151F60E0CC281C6EEAECB1AB6F59E7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2B5706D0C1B262DB74DA245D990FC56 /* Pods-DPRefreshControl_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB2C64887674F8DB728D5C03093A3E31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5120C8DE28E28E9114B16A8438A4E41 /* DPRefreshControl-dummy.m in Sources */,
+				C92839AFF03F74E3C2860269D2439C43 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83ABEE54904C3FEB7430D8821F744EA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DPRefreshControl;
+			target = FE384AD72B44577088D9224422308972 /* DPRefreshControl */;
+			targetProxy = D5A8685CA2A0752898917F977A4CA6A7 /* PBXContainerItemProxy */;
+		};
+		90F10FD635DDA753D7712B2F06CBF8E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DPRefreshControl_Example";
+			target = 740E82B2F5F8B67FFC6C57C32436D400 /* Pods-DPRefreshControl_Example */;
+			targetProxy = D04EFB4EE0D0CD1881E374CC3F280F7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5EA5006381E12BC9AA7DEEBC8BCE4905 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		78ACCA1E3460EAD09EAF0231A9557D02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4150DA368F0A51128D301EE9209C615 /* Pods-DPRefreshControl_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DPRefreshControl_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DPRefreshControl_Tests/Pods-DPRefreshControl_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8299F934D93A53B918D296808D58DBAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4A89DD9E04E002EEA8F0697212D9129 /* Pods-DPRefreshControl_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DPRefreshControl_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DPRefreshControl_Tests/Pods-DPRefreshControl_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		942F605F5A7CD707C46D98C15E89AE90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 612AD372166D3CD494D74C317874706A /* DPRefreshControl.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DPRefreshControl/DPRefreshControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DPRefreshControl/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DPRefreshControl/DPRefreshControl.modulemap";
+				PRODUCT_MODULE_NAME = DPRefreshControl;
+				PRODUCT_NAME = DPRefreshControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		95E9C8934144BEE75914708B328A63EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C21C77E12345F4C7304F429A53AB2EE /* Pods-DPRefreshControl_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DPRefreshControl_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DPRefreshControl_Example/Pods-DPRefreshControl_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B64E2C722A3EAD054D380F489370F012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B655DD5245A6FF22D270477DB6EFA5F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 612AD372166D3CD494D74C317874706A /* DPRefreshControl.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DPRefreshControl/DPRefreshControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DPRefreshControl/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DPRefreshControl/DPRefreshControl.modulemap";
+				PRODUCT_MODULE_NAME = DPRefreshControl;
+				PRODUCT_NAME = DPRefreshControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E4950B61C94A290C58F50E4E2713382E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ACD958181F8AB1EA8F225BB13C98AFE /* Pods-DPRefreshControl_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DPRefreshControl_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DPRefreshControl_Example/Pods-DPRefreshControl_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20238D7D19351C745BE6533C9204FD89 /* Build configuration list for PBXNativeTarget "DPRefreshControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B655DD5245A6FF22D270477DB6EFA5F7 /* Debug */,
+				942F605F5A7CD707C46D98C15E89AE90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28E1C2DF0D98EC5EB5D700414A272797 /* Build configuration list for PBXNativeTarget "Pods-DPRefreshControl_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95E9C8934144BEE75914708B328A63EF /* Debug */,
+				E4950B61C94A290C58F50E4E2713382E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B64E2C722A3EAD054D380F489370F012 /* Debug */,
+				5EA5006381E12BC9AA7DEEBC8BCE4905 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A165B59EFB11002F294E1D7FEBC8F19 /* Build configuration list for PBXNativeTarget "Pods-DPRefreshControl_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8299F934D93A53B918D296808D58DBAA /* Debug */,
+				78ACCA1E3460EAD09EAF0231A9557D02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

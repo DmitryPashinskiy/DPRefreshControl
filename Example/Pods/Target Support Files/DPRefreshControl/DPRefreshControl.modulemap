@@ -1,0 +1,6 @@
+framework module DPRefreshControl {
+  umbrella header "DPRefreshControl-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "DPRefreshControl",
+  "version": "0.1.0",
+  "summary": "A short description of DPRefreshControl.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/DmitryPashinskiy/DPRefreshControl",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "DmitryPashinskiy": "dmytro.pashynskyi@mobindustry.net"
+  },
+  "source": {
+    "git": "https://github.com/DmitryPashinskiy/DPRefreshControl.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DPRefreshControl/Classes/**/*"
+}
